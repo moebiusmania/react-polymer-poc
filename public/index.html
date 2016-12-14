@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="import" href="https://polygit2.appspot.com/components/polymer/polymer.html">
+    <script src="https://polygit2.appspot.com/components/webcomponentsjs/webcomponents-lite.js"></script>
+    <title>React Polymer POC</title>
+  </head>
+  <body>
+    <react-polymer-poc></react-polymer-poc>
+  </body>
+</html>
+
+<dom-module id="react-polymer-poc">
+  <template>
+    <react-app></react-app>
+  </template>
+  <script>
+    Polymer({ is: 'react-polymer-poc' });
+  </script>
+</dom-module>
